@@ -15,6 +15,8 @@ a{color:var(--accent)}
 .eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:.8rem;color:var(--accent)}
 .hero h1{font-size:clamp(2.2rem,6vw,4rem);margin:10px 0}
 .hero p{margin-bottom:24px}
+.welcome{font-size:1.1rem;font-weight:bold;margin-bottom:6px!important}
+.hero .maker{margin:-6px 0 24px;font-style:italic;opacity:.8}
 .flame{font-size:clamp(6rem,18vw,12rem);animation:flicker 3s ease-in-out infinite}
 @keyframes flicker{0%,100%{transform:scale(1) rotate(-1deg)}50%{transform:scale(1.05) rotate(1deg)}}
 .section{padding:60px 5vw}
